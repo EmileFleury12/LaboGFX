@@ -12,7 +12,8 @@
 // #define RAYLIB_NOIMPLEMENTATION 
 #include "noblib_raylib.c"
 
-#define LAB_NAME "entrypoint"
+#define LAB_NAME "Lab3_1"
+
 int main(int argc, char** argv){
   NOB_GO_REBUILD_URSELF_PLUS(argc, argv,RAYLIB_FILE);
   // ^--- Only needed if you intend on changing the build file, use NOB_GO_REBUILD_URSELF otherwise
