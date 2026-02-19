@@ -1,8 +1,6 @@
 #include "entrypoint.h"
 #include "raylib.h"
 
-const
-
 void raylib_start(void){
     InitWindow(800,600,"Frame mogged");
     float w = GetMonitorWidth(0) * 0.9f;
