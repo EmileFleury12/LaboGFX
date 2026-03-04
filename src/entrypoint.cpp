@@ -1,8 +1,22 @@
 #include "entrypoint.h"
 #include "raylib.h"
 
+class Vector {
+    private:
+    int x,y;
+    public:
+    void SetPosition(int x, int y){
+        this->x = x;
+        this->y = y;
+
+    }
+};
+
+
 void raylib_start(void){
-    InitWindow(800,600,"Frame mogged");
+    Vector vec;
+    vec.SetPosition(80085,0);
+    InitWindow(800,600,"Clavicular");
     float w = GetMonitorWidth(0) * 0.9f;
     float h = GetMonitorHeight(0) * 0.6f;
     SetWindowSize(w,h);
