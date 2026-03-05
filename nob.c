@@ -12,7 +12,7 @@
 // #define RAYLIB_NOIMPLEMENTATION 
 #include "noblib_raylib.c"
 
-#define LAB_NAME "Labo3_2"
+#define LAB_NAME "Labo3"
 
 int main(int argc, char** argv){
   NOB_GO_REBUILD_URSELF_PLUS(argc, argv,RAYLIB_FILE);
